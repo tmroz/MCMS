@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+//In your ViewController.h, add an NSMutableArray property called creatures
+@property NSMutableArray *creatures;
+
 
 @end
